@@ -1,0 +1,10 @@
+.WxMenuList-container {
+  width: 80%;
+  font-size: 1rem;
+}
+.WxMenuList-item-container {
+  width: 27%;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin: 50px 100px;
+}

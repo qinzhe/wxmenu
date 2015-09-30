@@ -1,0 +1,41 @@
+{
+  "name": "zhuoyouwxadmin",
+  "author": "zhco",
+  "version": "1.0.0",
+  "description": "zhuoyouwx admin front end workspace",
+  "license": "ISC",
+  "entry": {
+    "index": "./src/entry/index",
+    "login": "./src/entry/login",
+    "adList": "./src/entry/adList",
+    "adEdit": "./src/entry/adEdit",
+    "wxMenu": "./src/entry/wxMenu"
+  },
+  "scripts": {
+    "dev": "webpack-dev-server --config webpack.dev.config.js --devtool eval --progress --colors --hot --content-base test",
+    "build": "NODE_ENV=production webpack -p --config webpack.production.config.js"
+  },
+  "devDependencies": {
+    "autoprefixer-loader": "^3.1.0",
+    "babel-core": "^5.8.24",
+    "babel-loader": "^5.3.2",
+    "css-loader": "^0.18.0",
+    "file-loader": "^0.8.4",
+    "less": "^2.5.1",
+    "less-loader": "^2.2.0",
+    "style-loader": "^0.12.3",
+    "url-loader": "^0.5.6",
+    "webpack": "^1.12.1",
+    "webpack-dev-server": "^1.10.1"
+  },
+  "dependencies": {
+    "antd": "^0.9.0-beta9",
+    "flex.less": "^1.1.0",
+    "flux": "^2.1.1",
+    "immutable": "^3.7.5",
+    "keymirror": "^0.1.1",
+    "normalize.css": "^3.0.3",
+    "object-assign": "^4.0.1",
+    "react": "^0.13.3"
+  }
+}

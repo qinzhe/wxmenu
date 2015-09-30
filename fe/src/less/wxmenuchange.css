@@ -1,0 +1,13 @@
+.WxMenuChange-container {
+  width: 22%;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-left: 100px;
+  text-align: center;
+  padding: 0.8rem 0;
+  cursor: pointer;
+}
+.WxMenuChange-container:hover {
+  color: #71B5DE;
+}

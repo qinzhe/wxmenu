@@ -1,0 +1,12 @@
+.DS_Store
+.idea
+log/online/*/*_log_*
+log/*_log_*
+application/config/config.php
+application/config/database.php
+resource/voice/*
+fe/node_modules
+fe/old
+fe/dist
+fe/.idea
+fe/npm-debug.log
